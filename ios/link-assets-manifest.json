@@ -1,0 +1,49 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Almarai-Bold.ttf",
+      "sha1": "91e36b6ef56ff61b29ddc8ff9a57ee1b0cb84cd2"
+    },
+    {
+      "path": "assets/fonts/Almarai-ExtraBold.ttf",
+      "sha1": "69480abe0a93c6cb38f9207ff898d9413b33fca2"
+    },
+    {
+      "path": "assets/fonts/Almarai-Light.ttf",
+      "sha1": "d049e0f333f3045991cb49ad0816b5f253249e52"
+    },
+    {
+      "path": "assets/fonts/Almarai-Regular.ttf",
+      "sha1": "072a431232b97e251e354a24e741e15b2024e913"
+    },
+    {
+      "path": "assets/fonts/NotoSans-Bold.ttf",
+      "sha1": "00a4dc42180951b52eb9797cb4d6f64527432220"
+    },
+    {
+      "path": "assets/fonts/NotoSans-Regular.ttf",
+      "sha1": "2b2500b3269369d0d1a29768aaa869405d4f1575"
+    },
+    {
+      "path": "assets/fonts/Quicksand-Bold.ttf",
+      "sha1": "82241d42d4abc5eda794ca1af140b0e69543cffe"
+    },
+    {
+      "path": "assets/fonts/Quicksand-Light.ttf",
+      "sha1": "b6d978adb86599ba35e5c97917b26f06e10c9361"
+    },
+    {
+      "path": "assets/fonts/Quicksand-Medium.ttf",
+      "sha1": "bb6fc51ffb9d7b5cf567407095f75ddb4b13ca80"
+    },
+    {
+      "path": "assets/fonts/Quicksand-Regular.ttf",
+      "sha1": "edfa7348d5686ab530f4e0a2feac6aa9bd02f09c"
+    },
+    {
+      "path": "assets/fonts/Quicksand-SemiBold.ttf",
+      "sha1": "4a0fed7f4392872594cdc50fead1510da1dcdac3"
+    }
+  ]
+}
