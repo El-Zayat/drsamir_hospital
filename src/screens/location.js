@@ -32,6 +32,8 @@ const Location = () => {
   } = useQuery('branches', EndPoints.branches);
   let _branches = branchesData?.data[I18nManager.isRTL ? 'ar' : 'en'];
 
+  console.log('branchesData', _branches)
+
   const focusCamera = () => {
     let camera = {
       center: {
@@ -44,12 +46,12 @@ const Location = () => {
   };
 
   useEffect(() => {
-    _branches ? focusCamera() : nul;
+    _branches ? focusCamera() : null;
   }, [activeIndex]);
 
   return (
     <View style={styles.container}>
-      {brancesLoading ? (
+      {!_branches ? (
         <LoadingIndicator />
       ) : (
         <MapView

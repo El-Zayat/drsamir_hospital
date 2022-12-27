@@ -46,6 +46,10 @@ export const setAppLanguage = async () => {
 //   }
 
     setLocale('ar');
+    await AsyncStorage.setItem(
+      'currentLang',
+      "ar",
+    );
 };
 
 export const handleLocalizationChange = async () => {
