@@ -32,7 +32,7 @@ const Location = () => {
   } = useQuery('branches', EndPoints.branches);
   let _branches = branchesData?.data[I18nManager.isRTL ? 'ar' : 'en'];
 
-  console.log('branchesData', _branches)
+  console.log('branchesData', _branches);
 
   const focusCamera = () => {
     let camera = {
@@ -73,10 +73,10 @@ const Location = () => {
           />
         </MapView>
       )}
-      {/* <BranchSlider
-                branches={_branches?_branches:[]}
-                onSnapToItem={(i)=>setActiveIndex(i)}
-            /> */}
+      <BranchSlider
+        branches={_branches ? _branches : []}
+        onSnapToItem={i => setActiveIndex(i)}
+      />
     </View>
   );
 };
