@@ -35,6 +35,7 @@ export const ServicesSlider=({
             renderItem={loading?_renderServiceSkelton:_renderServiceItem}
             keyExtractor={item => item.id?.toString()}
             horizontal={true}
+            showsHorizontalScrollIndicator={false}
             // refreshControl={
             //     <RefreshControl
             //         refreshing={loading}

@@ -93,7 +93,7 @@ const Doctors = () => {
         <Text style={styles.txtTitleH}>{i18n.t('find')}</Text>
         <Text style={styles.txtTitleH1}>{i18n.t('desired-doctor')}</Text>
       </View>
-      <View style={styles.searchBarContainer}>
+      {/* <View style={styles.searchBarContainer}>
         <TextInput
           placeholder={i18n.t('find-doctor')}
           style={styles.searchBar}
@@ -101,7 +101,7 @@ const Doctors = () => {
         <View style={styles.searchIconContainer}>
           <SearchIcon />
         </View>
-      </View>
+      </View> */}
 
       <View>
         <Text style={styles.txtTitle2}>{i18n.t('categories')}</Text>
@@ -198,5 +198,6 @@ const styles = StyleSheet.create({
     fontFamily: Family.Regular,
     fontSize: Size.fs_18,
     color: colors.black,
+    marginTop: 20,
   },
 });
